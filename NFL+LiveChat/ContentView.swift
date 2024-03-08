@@ -25,9 +25,9 @@ struct ContentView: View {
                     VideoPlayer(player: player)
                         .frame(maxHeight:.infinity)
                     Spacer()
-                    
-                    Text("Chat Box Content")
+                    Text("Saints Live Chat")
                     .padding(5.0)
+                    .foregroundColor(.yellow)
                     ChatView()
                 }
                 .padding(.bottom, 20)
