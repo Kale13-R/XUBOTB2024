@@ -1,6 +1,7 @@
 import os
 import openai
 from openai import OpenAI
+# from config import OPENAI_API_KEY
 
 openai.api_key = "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"  # Replace with your API key
 # export OPENAI_API_KEY = "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"
@@ -8,12 +9,12 @@ openai.api_key = "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"  # Replac
 
 # moderations.create(input="Sample text goes here.")
 
-
+client = openai.OpenAI()
 
 
 # Open AI naturally moderates text input, so for the help bot it is unnecessary to additionally moderate it.
 def generate_text(prompt):
-    response = OpenAI().moderations.create(
+    response = OpenAI().completions.create(
         engine="gpt-3.5-turbo-instruct",  # Or another suitable model
         prompt=prompt,
         max_tokens=100,
