@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58F264322B9AFDD9009AA0E6 /* NFL_LiveChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F264312B9AFDD9009AA0E6 /* NFL_LiveChatApp.swift */; };
+		58F264342B9AFDD9009AA0E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F264332B9AFDD9009AA0E6 /* ContentView.swift */; };
+		58F264362B9AFDD9009AA0E6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F264352B9AFDD9009AA0E6 /* Item.swift */; };
+		58F264382B9AFDDB009AA0E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58F264372B9AFDDB009AA0E6 /* Assets.xcassets */; };
+		58F2643B2B9AFDDB009AA0E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58F2643A2B9AFDDB009AA0E6 /* Preview Assets.xcassets */; };
+		58F264452B9AFDDB009AA0E6 /* NFL_LiveChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F264442B9AFDDB009AA0E6 /* NFL_LiveChatTests.swift */; };
+		58F2644F2B9AFDDB009AA0E6 /* NFL_LiveChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2644E2B9AFDDB009AA0E6 /* NFL_LiveChatUITests.swift */; };
+		58F264512B9AFDDB009AA0E6 /* NFL_LiveChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F264502B9AFDDB009AA0E6 /* NFL_LiveChatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58F264412B9AFDDB009AA0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58F264262B9AFDD9009AA0E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58F2642D2B9AFDD9009AA0E6;
+			remoteInfo = "NFL+LiveChat";
+		};
+		58F2644B2B9AFDDB009AA0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58F264262B9AFDD9009AA0E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58F2642D2B9AFDD9009AA0E6;
+			remoteInfo = "NFL+LiveChat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58F2642E2B9AFDD9009AA0E6 /* NFL+LiveChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NFL+LiveChat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F264312B9AFDD9009AA0E6 /* NFL_LiveChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFL_LiveChatApp.swift; sourceTree = "<group>"; };
+		58F264332B9AFDD9009AA0E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58F264352B9AFDD9009AA0E6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		58F264372B9AFDDB009AA0E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58F2643A2B9AFDDB009AA0E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58F264402B9AFDDB009AA0E6 /* NFL+LiveChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NFL+LiveChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F264442B9AFDDB009AA0E6 /* NFL_LiveChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFL_LiveChatTests.swift; sourceTree = "<group>"; };
+		58F2644A2B9AFDDB009AA0E6 /* NFL+LiveChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NFL+LiveChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F2644E2B9AFDDB009AA0E6 /* NFL_LiveChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFL_LiveChatUITests.swift; sourceTree = "<group>"; };
+		58F264502B9AFDDB009AA0E6 /* NFL_LiveChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFL_LiveChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58F2642B2B9AFDD9009AA0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F2643D2B9AFDDB009AA0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F264472B9AFDDB009AA0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58F264252B9AFDD9009AA0E6 = {
+			isa = PBXGroup;
+			children = (
+				58F264302B9AFDD9009AA0E6 /* NFL+LiveChat */,
+				58F264432B9AFDDB009AA0E6 /* NFL+LiveChatTests */,
+				58F2644D2B9AFDDB009AA0E6 /* NFL+LiveChatUITests */,
+				58F2642F2B9AFDD9009AA0E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58F2642F2B9AFDD9009AA0E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58F2642E2B9AFDD9009AA0E6 /* NFL+LiveChat.app */,
+				58F264402B9AFDDB009AA0E6 /* NFL+LiveChatTests.xctest */,
+				58F2644A2B9AFDDB009AA0E6 /* NFL+LiveChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58F264302B9AFDD9009AA0E6 /* NFL+LiveChat */ = {
+			isa = PBXGroup;
+			children = (
+				58F264312B9AFDD9009AA0E6 /* NFL_LiveChatApp.swift */,
+				58F264332B9AFDD9009AA0E6 /* ContentView.swift */,
+				58F264352B9AFDD9009AA0E6 /* Item.swift */,
+				58F264372B9AFDDB009AA0E6 /* Assets.xcassets */,
+				58F264392B9AFDDB009AA0E6 /* Preview Content */,
+			);
+			path = "NFL+LiveChat";
+			sourceTree = "<group>";
+		};
+		58F264392B9AFDDB009AA0E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58F2643A2B9AFDDB009AA0E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58F264432B9AFDDB009AA0E6 /* NFL+LiveChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				58F264442B9AFDDB009AA0E6 /* NFL_LiveChatTests.swift */,
+			);
+			path = "NFL+LiveChatTests";
+			sourceTree = "<group>";
+		};
+		58F2644D2B9AFDDB009AA0E6 /* NFL+LiveChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58F2644E2B9AFDDB009AA0E6 /* NFL_LiveChatUITests.swift */,
+				58F264502B9AFDDB009AA0E6 /* NFL_LiveChatUITestsLaunchTests.swift */,
+			);
+			path = "NFL+LiveChatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58F2642D2B9AFDD9009AA0E6 /* NFL+LiveChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F264542B9AFDDB009AA0E6 /* Build configuration list for PBXNativeTarget "NFL+LiveChat" */;
+			buildPhases = (
+				58F2642A2B9AFDD9009AA0E6 /* Sources */,
+				58F2642B2B9AFDD9009AA0E6 /* Frameworks */,
+				58F2642C2B9AFDD9009AA0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NFL+LiveChat";
+			productName = "NFL+LiveChat";
+			productReference = 58F2642E2B9AFDD9009AA0E6 /* NFL+LiveChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58F2643F2B9AFDDB009AA0E6 /* NFL+LiveChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F264572B9AFDDB009AA0E6 /* Build configuration list for PBXNativeTarget "NFL+LiveChatTests" */;
+			buildPhases = (
+				58F2643C2B9AFDDB009AA0E6 /* Sources */,
+				58F2643D2B9AFDDB009AA0E6 /* Frameworks */,
+				58F2643E2B9AFDDB009AA0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58F264422B9AFDDB009AA0E6 /* PBXTargetDependency */,
+			);
+			name = "NFL+LiveChatTests";
+			productName = "NFL+LiveChatTests";
+			productReference = 58F264402B9AFDDB009AA0E6 /* NFL+LiveChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58F264492B9AFDDB009AA0E6 /* NFL+LiveChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F2645A2B9AFDDB009AA0E6 /* Build configuration list for PBXNativeTarget "NFL+LiveChatUITests" */;
+			buildPhases = (
+				58F264462B9AFDDB009AA0E6 /* Sources */,
+				58F264472B9AFDDB009AA0E6 /* Frameworks */,
+				58F264482B9AFDDB009AA0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58F2644C2B9AFDDB009AA0E6 /* PBXTargetDependency */,
+			);
+			name = "NFL+LiveChatUITests";
+			productName = "NFL+LiveChatUITests";
+			productReference = 58F2644A2B9AFDDB009AA0E6 /* NFL+LiveChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58F264262B9AFDD9009AA0E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					58F2642D2B9AFDD9009AA0E6 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					58F2643F2B9AFDDB009AA0E6 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 58F2642D2B9AFDD9009AA0E6;
+					};
+					58F264492B9AFDDB009AA0E6 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 58F2642D2B9AFDD9009AA0E6;
+					};
+				};
+			};
+			buildConfigurationList = 58F264292B9AFDD9009AA0E6 /* Build configuration list for PBXProject "NFL+LiveChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58F264252B9AFDD9009AA0E6;
+			productRefGroup = 58F2642F2B9AFDD9009AA0E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58F2642D2B9AFDD9009AA0E6 /* NFL+LiveChat */,
+				58F2643F2B9AFDDB009AA0E6 /* NFL+LiveChatTests */,
+				58F264492B9AFDDB009AA0E6 /* NFL+LiveChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58F2642C2B9AFDD9009AA0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F2643B2B9AFDDB009AA0E6 /* Preview Assets.xcassets in Resources */,
+				58F264382B9AFDDB009AA0E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F2643E2B9AFDDB009AA0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F264482B9AFDDB009AA0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58F2642A2B9AFDD9009AA0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F264342B9AFDD9009AA0E6 /* ContentView.swift in Sources */,
+				58F264362B9AFDD9009AA0E6 /* Item.swift in Sources */,
+				58F264322B9AFDD9009AA0E6 /* NFL_LiveChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F2643C2B9AFDDB009AA0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F264452B9AFDDB009AA0E6 /* NFL_LiveChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F264462B9AFDDB009AA0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F2644F2B9AFDDB009AA0E6 /* NFL_LiveChatUITests.swift in Sources */,
+				58F264512B9AFDDB009AA0E6 /* NFL_LiveChatUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58F264422B9AFDDB009AA0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58F2642D2B9AFDD9009AA0E6 /* NFL+LiveChat */;
+			targetProxy = 58F264412B9AFDDB009AA0E6 /* PBXContainerItemProxy */;
+		};
+		58F2644C2B9AFDDB009AA0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58F2642D2B9AFDD9009AA0E6 /* NFL+LiveChat */;
+			targetProxy = 58F2644B2B9AFDDB009AA0E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58F264522B9AFDDB009AA0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58F264532B9AFDDB009AA0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58F264552B9AFDDB009AA0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NFL+LiveChat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myorganization.NFL-LiveChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58F264562B9AFDDB009AA0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NFL+LiveChat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myorganization.NFL-LiveChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58F264582B9AFDDB009AA0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myorganization.NFL-LiveChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFL+LiveChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NFL+LiveChat";
+			};
+			name = Debug;
+		};
+		58F264592B9AFDDB009AA0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myorganization.NFL-LiveChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFL+LiveChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NFL+LiveChat";
+			};
+			name = Release;
+		};
+		58F2645B2B9AFDDB009AA0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myorganization.NFL-LiveChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NFL+LiveChat";
+			};
+			name = Debug;
+		};
+		58F2645C2B9AFDDB009AA0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myorganization.NFL-LiveChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NFL+LiveChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58F264292B9AFDD9009AA0E6 /* Build configuration list for PBXProject "NFL+LiveChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F264522B9AFDDB009AA0E6 /* Debug */,
+				58F264532B9AFDDB009AA0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58F264542B9AFDDB009AA0E6 /* Build configuration list for PBXNativeTarget "NFL+LiveChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F264552B9AFDDB009AA0E6 /* Debug */,
+				58F264562B9AFDDB009AA0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58F264572B9AFDDB009AA0E6 /* Build configuration list for PBXNativeTarget "NFL+LiveChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F264582B9AFDDB009AA0E6 /* Debug */,
+				58F264592B9AFDDB009AA0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58F2645A2B9AFDDB009AA0E6 /* Build configuration list for PBXNativeTarget "NFL+LiveChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F2645B2B9AFDDB009AA0E6 /* Debug */,
+				58F2645C2B9AFDDB009AA0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58F264262B9AFDD9009AA0E6 /* Project object */;
+}
